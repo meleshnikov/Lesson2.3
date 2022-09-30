@@ -1,6 +1,6 @@
 package hw2_3.transport;
 
-public class Transport {
+public abstract class Transport {
     private final String brand;
     private final String model;
     private final int year;
@@ -29,6 +29,7 @@ public class Transport {
     public Transport(String brand, String model, int year, String country, String color) {
         this(brand, model, year, country, color, DEFAULT_VELOCITY);
     }
+
     public Transport(String brand, String model, int year, String country) {
         this(brand, model, year, country, DEFAULT_VELOCITY);
     }
@@ -96,4 +97,6 @@ public class Transport {
                 ", velocity=" + velocity +
                 '}';
     }
+
+    public abstract void refill();
 }

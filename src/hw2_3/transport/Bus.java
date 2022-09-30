@@ -37,4 +37,9 @@ public class Bus extends Transport {
     public String toString() {
         return String.format(BUS_INFO, getBrand(), getModel(), getCountry(), getYear(), getColor(), getVelocity());
     }
+
+    @Override
+    public void refill() {
+        System.out.println("можно заправлять дизелем");
+    }
 }

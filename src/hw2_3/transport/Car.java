@@ -57,6 +57,11 @@ public class Car extends Transport {
                 getInsurance().getNumber(), getInsurance().getCost(), getInsurance().getExpireDate());
     }
 
+    @Override
+    public void refill() {
+        System.out.println("можно заправлять бензином");
+    }
+
     public double getEngineVolume() {
         return engineVolume;
     }

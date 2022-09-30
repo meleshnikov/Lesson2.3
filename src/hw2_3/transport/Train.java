@@ -76,4 +76,9 @@ public class Train extends Transport {
         return String.format(TRAIN_INFO, getBrand(), getModel(), getYear(),
                 getCountry(), getVelocity(), initStation, finishStation, price, wagonsCount);
     }
+
+    @Override
+    public void refill() {
+        System.out.println("можно заправлять дизелем");
+    }
 }

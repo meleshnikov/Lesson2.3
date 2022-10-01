@@ -1,8 +1,8 @@
 package hw2_3;
 
-import hw2_3.transport.Bus;
-import hw2_3.transport.Car;
-import hw2_3.transport.Train;
+import hw2_3.tasks12.Bus;
+import hw2_3.tasks12.Car;
+import hw2_3.tasks12.Train;
 
 
 public class Main {

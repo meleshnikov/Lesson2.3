@@ -1,4 +1,4 @@
-package hw2_3.transport;
+package hw2_3.tasks12;
 
 public class Train extends Transport {
     private double price;
